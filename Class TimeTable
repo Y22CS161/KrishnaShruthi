@@ -1,0 +1,285 @@
+<html>
+    <head>
+        <title>Class Timetable</title>
+         <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+        }
+
+        th {
+            background-color: #4682B4;
+            color: white;
+            padding: 10px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+
+        th:first-child,
+        td:first-child {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+       .bigger-font {
+            font-size: 150%;
+        }
+    </style>
+    </head>
+</html>
+<body >
+     <table border="3" align="center">
+        <h1 align="center"><strong>R.V.R&J.C COLLEGE OF ENGINEERING (AUTONOMOUS),GUNTUR-522019</strong></h1>
+        <caption><b>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING <br> TIME TABLE SEM IV(SECOND YEAR)</b></caption>
+
+        <tr>
+            <th colspan="8" >SECTION-A(CB-406)</th>
+        </tr>
+        <tr>
+            <th>DAY</th>
+            <th>8:00-9:00</th>
+            <th>9:00-10:00</th>
+            <th>10:00-11:00</th>
+            <th>11:00-12:00</th>
+            <th>12:00-1:00</th>
+            <th>1:00-2:00</th>
+            <th>2:00-3:00</th>
+        </tr>
+        <tr align="center">
+            <th>MON</th>
+            <td>225</td>
+            <td>222</td>
+            <td>221</td>
+            <th rowspan="6" class="bigger-font">L<br>U<br>N<br>C<br>H</th>
+            <th colspan="3" align="center">CS262 LAB(ACC)</th>
+        </tr>
+        <tr align="center">
+            <th>TUE</th>
+            <th colspan="3" >CS263 LAB(ACC)</th>
+            <td>223</td>
+            <td>224</td>
+            <td>LIBRARY</td>
+        </tr>
+        <tr align="center">
+            <th>WED</th>
+            <td>222</td>
+            <td>223</td>
+            <td>225</td>
+            <td>224</td>
+            <td>221</td>
+            <td>CSM4</td>
+        </tr>
+        <tr align="center">
+            <th>THU</th>
+            <td>225</td>
+            <th colspan="2">CSSL2 LAB</th>
+            <td>224</td>
+            <td>222</td>
+            <td>223</td>
+        </tr>
+        <tr align="center">
+            <th>FRI</th>
+            <td>224</td>
+            <td>223</td>
+            <td>221</td>
+            <th colspan="3">CS261 LAB(C-III)</th>
+        </tr>
+        <tr align="center">
+            <th>SAT</th>
+            <td>221</td>
+            <td>CSSL2</td>
+            <td>CSSL2</td>
+            <td>222</td>
+            <td>225</td>
+            <td>CSM4</td>
+        </tr>
+        <tr align="center">
+            <th colspan="8">SECTION-B(CB407)</th>
+        </tr>
+        <tr >
+            <th>DAY</th>
+            <th>8:00-9:00</th>
+            <th>9:00-10:00</th>
+            <th>10:00-11:00</th>
+            <th>11:00-12:00</th>
+            <th>12:00-1:00</th>
+            <th>1:00-2:00</th>
+            <th>2:00-3:00</th>
+        </tr>
+        <tr align="center">
+            <th>MON</th>
+            <td>224</td>
+            <td>223</td>
+            <td>225</td>
+            <th rowspan="6" class="bigger-font">L<br>U<br>N<br>C<br>H</th>
+            <td>222</td>
+            <td>224</td>
+            <td>221</td>
+        </tr>
+        <tr align="center">
+            <th>TUE</th>
+            <td>223</td>
+            <td>CSM4</td>
+            <td>221</td>
+            <th colspan="3">CS263 LAB(ACC)</th>
+        </tr>
+        <tr align="center">
+            <th>WED</th>
+            <th colspan="2">CS261 LAB(ACC)</th>
+            <td>222</td>
+            <td>225</td>
+            <td>224</td>
+        </tr>
+        <tr align="center">
+            <th>THU</th>
+            <td>225</td>
+            <th colspan="2">CSSL2 LAB</th>
+            <th colspan="3">CS262 LAB(ACC)</th>
+        </tr>
+        <tr align="center">
+            <th>FRI</th>
+            <td>225</td>
+            <td>222</td>
+            <td>CSM4</td>
+            <td>223</td>
+            <td>221</td>
+            <td>LIBRARY</td>
+        </tr>
+        <tr align="center">
+            <th>SAT</th>
+            <td>221</td>
+            <td>CSSL2</td>
+            <td>CSSL2</td>
+            <td>223</td>
+            <td>222</td>
+            <td>224</td>
+        </tr>
+        <tr align="center">
+            <th colspan="8">SECTION-C(CB-408)</th>
+        </tr>
+        <tr >
+            <th>DAY</th>
+            <th>8:00-9:00</th>
+            <th>9:00-10:00</th>
+            <th>10:00-11:00</th>
+            <th>11:00-12:00</th>
+            <th>12:00-1:00</th>
+            <th>1:00-2:00</th>
+            <th>2:00-3:00</th>
+        </tr>
+        <tr align="center">
+            <th>MON</th>
+            <th colspan="3">CS261 LAB(ACC)</th>
+            <th rowspan="6" class="bigger-font">L<br>U<br>N<br>C<br>H</th>
+            <td>224</td>
+            <td>CSM4</td>
+            <td>221</td>
+        </tr>
+        <tr align="center">
+            <th>TUE</th>
+            <td>CSM4</td>
+            <td>221</td>
+            <td>222</td>
+            <td>223</td>
+            <td>224</td>
+            <td>LIBRARY</td>
+        </tr>
+        <tr align="center">
+            <th>WED</th>
+            <td>223</td>
+            <td>223</td>
+            <td>222</td>
+            <th colspan="3">CS262 LAB(ACC)</th>
+        </tr>
+        <tr align="center">
+            <th>THU</th>
+            <td>225</td>
+            <th colspan="2">CSSL2 LAB</th>
+            <td>222</td>
+            <td>221</td>
+            <td>224</td>
+        </tr>
+        <tr align="center">
+            <th>FRI</th>
+            <td>225</td>
+            <td>225</td>
+            <td>221</td>
+            <th colspan="3">CS263 LAB(ACC)</th>
+        </tr>
+        <tr align="center">
+            <th>SAT</th>
+            <td>223</td>
+            <td>CSSL2</td>
+            <td>CSSL2</td>
+            <td>222</td>
+            <td>225</td>
+            <td>224</td>
+        </tr>
+    </table>
+    <table border="3" align="center">
+        <tr>
+            <th>code</th>
+            <th>Subject Name</th>
+            <th>Section-A</th>
+            <th>Section-B</th>
+            <th>Section-C</th>
+        </tr>
+        <tr>
+            <th>CS 221</th>
+            <th>Computational Statistics(CS)</th>
+            <td>Dr.P.Chiranjeevi</td>
+            <td>Dr.B.Srinivas Rao</td>
+            <td>Dr.Y.Adinarayana</td>
+        </tr>
+        <tr>
+            <th>CS 222</th>
+            <th>Database Management System(DBMS)</th>
+            <td>Dr.B.Vara Prasad Rao</td>
+            <td>Dr.Ch.Aparna</td>
+            <td>Dr.R.Lakshmi Tulasi</td>
+        </tr>
+        <tr>
+            <th>CS 223</th><th>Operating System(OS)</th>
+            <td>Dr.R.Lakshmi Tulasi</td>
+            <td>Z.Sunitha Bai</td>
+            <td>M.Vasavi</td>
+        </tr>
+        <tr>
+            <th>CS 224</th><th>Software Engineering(SE)</th>
+            <td>P.Rama Krishana</td><td>R.M.Basha</td><td>N.Zareena(Class I/C)</td>
+        </tr>
+        <tr>
+            <th>CS 225</th><th>Web Technologies(WT)</th>
+            <td>P.Siva Prasad(Class I/C)</td><td>E.Ramesh(Class I/C)</td><td>N.Chandra Sekhar</td>
+        </tr>
+        <tr>
+            <th>CS 261</th><th>Computational Statistics(CS Lab)</th>
+            <td>B.Manasa(PRK)/SK</td><td>S.Karthik/BM(NZ)</td><td>S.Karthik/BM(NZ)</td>
+        </tr>
+        <tr>
+            <th>CS 262</th><th>Database Management System Lab(DBMS Lab)</th>
+            <td>Dr.BVPR/MV</td><td>Dr.CHA/MV</td><td>Dr.RLT/MV</td>
+        </tr>
+        <tr>
+            <th>CS 263</th><th>Web Technologies Lab(WT Lab)</th>
+            <td>PSP/ER</td><td>ER/NCS</td><td>NCS/ER</td>
+        </tr>
+        <tr>
+            <th>CSSL2</th><th>Skill Oriented Course-II(SOC)<br>b.Linux Programming<br>Mobile Application Development</th>
+            <td>Linux Programming<br>Ch.Madhavi Lakshmi<br>Section-1(ACC Lab)<br>B.Manasa(Section-2)<br>Dr.K.Siva Kumar</td>
+            <td>MAD Section-1<br>M.Bramaiah/PSP<br>(E-Learning)</td>
+            <td>MAD Section-2<br>N.ChandraSekhar/<br>M.Maithili<br>(C-III LAB)</td>
+        </tr>
+        <tr>
+            <th>CSMC4</th><th>Ethics&Human Values(E&H)</th>
+            <td>Dr.P.Lakshmi Rani</td>
+            <td>Dr.P.Lakshmi Rani</td>
+            <td>Dr.P.Lakshmi Rani</td>
+        </tr>
+    </table>
+</body>
